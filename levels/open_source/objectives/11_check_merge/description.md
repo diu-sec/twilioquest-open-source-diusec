@@ -4,4 +4,4 @@ The final step on your open source journey is to get your Pull Request merged. T
 
 The pull requests to the Open Pixel Art project are controlled automatically by a few different tools. If anything goes wrong, the bots will leave comments on your pull request asking for changes to be made.
 
-Once [your Pull Request](https://github.com/twilio-labs/open-pixel-art/pull/<%= env.TQ_OPEN_PIXEL_ART_PR_NUMBER.value %>) is automatically merged, click `HACK` on the left to open this chest!
+Once [your Pull Request](https://github.com/diu-sec/open-pixel-art-diu/pull/<%= env.TQ_OPEN_PIXEL_ART_PR_NUMBER.value %>) is automatically merged, click `HACK` on the left to open this chest!

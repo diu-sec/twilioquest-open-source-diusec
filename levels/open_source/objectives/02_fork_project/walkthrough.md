@@ -14,7 +14,7 @@ The repository we're going to fork is one we created especially for this mission
 
 First we need to learn how to create a fork! GitHub tries to keep this process straightforward, and they maintain [documentation that is kept up to date here](https://help.github.com/en/articles/fork-a-repo#fork-an-example-repository).
 
-GitHub lists their own example repository for you to fork, but you should fork our [Open Pixel Art repository](https://github.com/twilio-labs/open-pixel-art) instead to complete this mission.
+GitHub lists their own example repository for you to fork, but you should fork our [Open Pixel Art repository](https://github.com/diu-sec/open-pixel-art-diu) instead to complete this mission.
 
 ## Check my results!
 

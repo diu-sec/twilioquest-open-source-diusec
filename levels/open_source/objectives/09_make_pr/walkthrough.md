@@ -16,7 +16,7 @@ Your forked repository should be set as the head repository. The branch you crea
 
 This URL should take you directly to the GitHub pull request creation screen with your `base` and `compare` branches already configured:
 
-[https://github.com/twilio-labs/open-pixel-art/compare/master...<%= env.TQ_GITHUB_USERNAME.value %>:<%= env.TQ_OPEN_PIXEL_ART_BRANCH.value %>](https://github.com/twilio-labs/open-pixel-art/compare/master...<%= env.TQ_GITHUB_USERNAME.value %>:<%= env.TQ_OPEN_PIXEL_ART_BRANCH.value %>)
+[https://github.com/diu-sec/open-pixel-art-diu/compare/master...<%= env.TQ_GITHUB_USERNAME.value %>:<%= env.TQ_OPEN_PIXEL_ART_BRANCH.value %>](https://github.com/diu-sec/open-pixel-art-diu/compare/master...<%= env.TQ_GITHUB_USERNAME.value %>:<%= env.TQ_OPEN_PIXEL_ART_BRANCH.value %>)
 
 ## Create Pull Request
 
@@ -35,7 +35,7 @@ Once you've confirmed the checklist, click the `Create Pull Request` button!
 Every Pull Request opened on GitHub is assigned a number so that you can reference it later. You can find this number on the Pull Request screen next to the title of your Pull Request. You can also find the same number in the URL of your Pull Request.
 
 ```bash
-https://github.com/twilio-labs/open-pixel-art/pull/<PULL_REQUEST_NUMBER>
+https://github.com/diu-sec/open-pixel-art-diu/pull/<PULL_REQUEST_NUMBER>
 ```
 
 If you've lost your Pull Request, you can find [all Pull Requests you've opened on GitHub](https://github.com/pulls).

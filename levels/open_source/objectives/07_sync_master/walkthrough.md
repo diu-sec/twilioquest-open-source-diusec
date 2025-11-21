@@ -33,29 +33,29 @@ However, other developers won't be making changes to your fork, they'll be chang
 
 ## How do I add the upstream remote?
 
-First, you'll need the URL of the [original Open Pixel Art project's](https://github.com/twilio-labs/open-pixel-art) git repository. This will be very similar to the browser URL and end in `.git`. You'll get this URL the same way you did when you originally [cloned this repository from the GitHub documentation](https://help.github.com/en/articles/cloning-a-repository).
+First, you'll need the URL of the [original Open Pixel Art project's](https://github.com/diu-sec/open-pixel-art-diu) git repository. This will be very similar to the browser URL and end in `.git`. You'll get this URL the same way you did when you originally [cloned this repository from the GitHub documentation](https://help.github.com/en/articles/cloning-a-repository).
 
 The URL should look like this, but will be different for any other repository you use in the future:
 
 ```bash
-https://github.com/twilio-labs/open-pixel-art.git
+https://github.com/diu-sec/open-pixel-art-diu.git
 ```
 
 Now we're going to use the `add` functionality of `git remote`. The command we want to run looks like this:
 
 ```bash
-git remote add upstream https://github.com/twilio-labs/open-pixel-art.git
+git remote add upstream https://github.com/diu-sec/open-pixel-art-diu.git
 ```
 
-`git remote add` is the command we're running, `upstream` is the name of the remote we're creating, and `https://github.com/twilio-labs/open-pixel-art.git` comes from the Open Pixel Art project repository on GitHub.
+`git remote add` is the command we're running, `upstream` is the name of the remote we're creating, and `https://github.com/diu-sec/open-pixel-art-diu.git` comes from the Open Pixel Art project repository on GitHub.
 
 Let's run `git remote -v` one more time to verify we created `upstream` correctly. It should show both `origin` and `upstream` now.
 
 ```bash
 origin	https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art.git (fetch)
 origin	https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art.git (push)
-upstream	https://github.com/twilio-labs/open-pixel-art.git (fetch)
-upstream	https://github.com/twilio-labs/open-pixel-art.git (push)
+upstream	https://github.com/diu-sec/open-pixel-art-diu.git (fetch)
+upstream	https://github.com/diu-sec/open-pixel-art-diu.git (push)
 ```
 
 ## Lets sync our fork with the remote
@@ -100,7 +100,7 @@ You can see the list of the latest commits on each repository by visiting these 
 
 There's a chance that new commits have shown up since you did your last sync! This is especially common on this learning repository where Pull Requests are being automatically approved and merged!
 
-[https://github.com/twilio-labs/open-pixel-art/commits/master](https://github.com/twilio-labs/open-pixel-art/commits/master)
+[https://github.com/diu-sec/open-pixel-art-diu/commits/master](https://github.com/diu-sec/open-pixel-art-diu/commits/master)
 
 [https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art/commits/master](https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art/commits/master)
 

@@ -39,8 +39,8 @@ module.exports = async (helper) => {
 
     const isUpstreamUrlCorrect = remotes.find(
       ([, url]) =>
-        url === "https://github.com/twilio-labs/open-pixel-art.git" ||
-        url === "git@github.com:twilio-labs/open-pixel-art.git"
+        url === "https://github.com/diu-sec/open-pixel-art-diu.git" ||
+        url === "git@github.com:diu-sec/open-pixel-art-diu.git"
     );
 
     if (!isUpstreamUrlCorrect) {
@@ -48,7 +48,7 @@ module.exports = async (helper) => {
         `We found your "upstream" remote, but it doesn't seem to have the correct URL.
         
         It should look like this:
-        https://github.com/twilio-labs/open-pixel-art.git
+        https://github.com/diu-sec/open-pixel-art-diu.git
         
         Run git remote -v in your terminal to verify it!`
       );
@@ -56,7 +56,7 @@ module.exports = async (helper) => {
     }
 
     const openPixelArtResponse = await got(
-      `https://api.github.com/repos/twilio-labs/open-pixel-art/branches/master`,
+      `https://api.github.com/repos/diu-sec/open-pixel-art-diu/branches/master`,
       {
         throwHttpErrors: false,
       }

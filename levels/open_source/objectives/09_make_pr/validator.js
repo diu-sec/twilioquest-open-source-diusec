@@ -6,7 +6,7 @@ module.exports = async helper => {
 
   try {
     const response = await got(
-      `https://api.github.com/repos/twilio-labs/open-pixel-art/pulls/${prNumber}`,
+      `https://api.github.com/repos/diu-sec/open-pixel-art-diu/pulls/${prNumber}`,
       {
         throwHttpErrors: false,
       }

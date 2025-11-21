@@ -24,8 +24,8 @@ When collaborating with a project's maintainers you'll need to give them time to
 
 You'll get notifications from GitHub [based on your settings](https://help.github.com/en/articles/about-notifications) there that can tell you when your code is merged.
 
-Since our tools will be automatically reviewing [your Pull Request](https://github.com/twilio-labs/open-pixel-art/pull/<%= env.TQ_OPEN_PIXEL_ART_PR_NUMBER.value %>), you should be able to come back to this Pull Request in a few minutes to a merged Pull Request!
+Since our tools will be automatically reviewing [your Pull Request](https://github.com/diu-sec/open-pixel-art-diu/pull/<%= env.TQ_OPEN_PIXEL_ART_PR_NUMBER.value %>), you should be able to come back to this Pull Request in a few minutes to a merged Pull Request!
 
 ## Hack!
 
-Once [your Pull Request](https://github.com/twilio-labs/open-pixel-art/pull/<%= env.TQ_OPEN_PIXEL_ART_PR_NUMBER.value %>) has been successfully merged, click `HACK` so TwilioQuest can confirm it for you!
+Once [your Pull Request](https://github.com/diu-sec/open-pixel-art-diu/pull/<%= env.TQ_OPEN_PIXEL_ART_PR_NUMBER.value %>) has been successfully merged, click `HACK` so TwilioQuest can confirm it for you!
