@@ -5,7 +5,7 @@ module.exports = async helper => {
 
   try {
     const response = await got(
-      `https://api.github.com/repos/${TQ_GITHUB_USERNAME}/open-pixel-art`,
+      `https://api.github.com/repos/${TQ_GITHUB_USERNAME}/open-pixel-art-diu`,
       {
         throwHttpErrors: false,
       }
@@ -17,7 +17,7 @@ module.exports = async helper => {
       );
     } else {
       helper.fail(
-        `We couldn't find a repository named "open-pixel-art" owned by the GitHub user, ${TQ_GITHUB_USERNAME}. Is your fork named correctly?`
+        `We couldn't find a repository named "open-pixel-art-diu" owned by the GitHub user, ${TQ_GITHUB_USERNAME}. Is your fork named correctly?`
       );
     }
   } catch (err) {

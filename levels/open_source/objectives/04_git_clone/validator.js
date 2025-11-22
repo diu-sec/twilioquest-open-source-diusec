@@ -31,7 +31,7 @@ module.exports = async helper => {
 
     const packageContents = await jetpack.readAsync(packagePath, 'json');
 
-    if (packageContents.name !== 'open-pixel-art') {
+    if (packageContents.name !== 'open-pixel-art-diu') {
       helper.fail(
         `The package file in that repository was not for the correct project! Was it cloned correctly? -> ${packagePath}`
       );

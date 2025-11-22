@@ -6,7 +6,7 @@
     {
       "name": "repositoryFilePath",
       "type": "text",
-      "placeholder": "C:\\projects\\open-pixel-art",
+      "placeholder": "C:\\projects\\open-pixel-art-diu",
       "label": "Enter the file path of your newly cloned Open Pixel Art repository."
     }
   ],

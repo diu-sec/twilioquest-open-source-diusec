@@ -12,7 +12,7 @@
     {
       "name": "repository",
       "type": "text",
-      "placeholder": "open-pixel-art",
+      "placeholder": "open-pixel-art-diu",
       "label": "Enter the name of the repository you contributed to here!"
     },
     {

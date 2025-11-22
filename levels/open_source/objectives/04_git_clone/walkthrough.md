@@ -31,7 +31,7 @@ Once the repository finishes cloning, you can now open these new files. They'll 
 To validate the clone worked correctly, we're going to need the full file path of our newly cloned project. Type the following change directory command, `cd`, to enter your new directory.
 
 ```
-cd open-pixel-art
+cd open-pixel-art-diu
 ```
 
 If you run the list command, `ls` (or `dir` on Windows), you should now see a list of file names like `package.json` and `README.md`.

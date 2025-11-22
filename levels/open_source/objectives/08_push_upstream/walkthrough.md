@@ -31,8 +31,8 @@ git remote  -v
 You'll see a few lines that look like this:
 
 ```bash
-origin	https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art.git (fetch)
-origin	https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art.git (push)
+origin	https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art-diu.git (fetch)
+origin	https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art-diu.git (push)
 ```
 
 You might recognize these URLs as the same ones you cloned to create your original local copy of the your Open Pixel Art fork. That's because `git` has linked our remote fork for us.
@@ -67,7 +67,7 @@ Check it out on your GitHub repository to make sure your branch is there now.
 
 The url for your new branch should look something like the following:
 
-[https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art/tree/<%= env.TQ_OPEN_PIXEL_ART_BRANCH.value %>](https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art/tree/<%= env.TQ_OPEN_PIXEL_ART_BRANCH.value %>)
+[https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art-diu/tree/<%= env.TQ_OPEN_PIXEL_ART_BRANCH.value %>](https://github.com/<%= env.TQ_GITHUB_USERNAME.value %>/open-pixel-art-diu/tree/<%= env.TQ_OPEN_PIXEL_ART_BRANCH.value %>)
 
 You can also navigate to this view using GitHub's UI, there's no need to memorize URLs.
 

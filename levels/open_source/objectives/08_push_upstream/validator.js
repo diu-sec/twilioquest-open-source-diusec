@@ -5,7 +5,7 @@ module.exports = async helper => {
 
   try {
     const response = await got(
-      `https://api.github.com/repos/${TQ_GITHUB_USERNAME}/open-pixel-art/branches/${TQ_OPEN_PIXEL_ART_BRANCH}`,
+      `https://api.github.com/repos/${TQ_GITHUB_USERNAME}/open-pixel-art-diu/branches/${TQ_OPEN_PIXEL_ART_BRANCH}`,
       {
         throwHttpErrors: false,
       }
@@ -17,7 +17,7 @@ module.exports = async helper => {
       );
     } else {
       helper.fail(
-        `We could not find your branch "${TQ_OPEN_PIXEL_ART_BRANCH}" on your remote repository "open-pixel-art" for the user "${TQ_GITHUB_USERNAME}"!`
+        `We could not find your branch "${TQ_OPEN_PIXEL_ART_BRANCH}" on your remote repository "open-pixel-art-diu" for the user "${TQ_GITHUB_USERNAME}"!`
       );
     }
   } catch (err) {
