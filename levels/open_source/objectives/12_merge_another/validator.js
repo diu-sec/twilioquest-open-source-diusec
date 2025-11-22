@@ -25,7 +25,7 @@ module.exports = async (helper) => {
     return;
   }
 
-  if (repositoryOwner === "twilio-labs" && repository === "open-pixel-art-diu") {
+  if (repositoryOwner === "diu-sec" && repository === "open-pixel-art-diu") {
     helper.fail(`You can't count your Open Pixel Art contribution again!`);
     return;
   }

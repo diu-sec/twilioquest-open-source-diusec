@@ -28,7 +28,7 @@ We will need three things from you that you should be able to find from the URL 
 
 For example, with the Open Pixel Art project that would've been:
 
-- twilio-labs
+- diu-sec
 - open-pixel-art-diu
 - <%= env.TQ_OPEN_PIXEL_ART_PR_NUMBER.value %>
 

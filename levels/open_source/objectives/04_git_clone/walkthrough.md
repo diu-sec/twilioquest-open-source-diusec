@@ -13,13 +13,13 @@ GitHub maintains [documentation about how to obtain the URL](https://help.github
 From GitHub you should find a URL that starts with `https://` and ends in `.git`. It should look something like this:
 
 ```
-https://github.com/twilio-labs/open-pixel-project
+https://github.com/diu-sec/open-pixel-project
 ```
 
 Once you have this URL you're going to run the `git clone` command in your terminal with the URL after it like this:
 
 ```
-git clone https://github.com/twilio-labs/open-pixel-project
+git clone https://github.com/diu-sec/open-pixel-project
 ```
 
 Now the cloning process will begin!

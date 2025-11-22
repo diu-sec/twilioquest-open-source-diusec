@@ -6,7 +6,7 @@
     {
       "name": "repositoryOwner",
       "type": "text",
-      "placeholder": "twilio-labs",
+      "placeholder": "diu-sec",
       "label": "Enter the username of the group that owns the repository you contributed to here!"
     },
     {
