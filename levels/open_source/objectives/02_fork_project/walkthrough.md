@@ -8,7 +8,7 @@ A word of warning, some projects are licensed in a way that prevents you from do
 
 ## Open Pixel Art - DIU Edition
 
-The repository we're going to fork is one we created especially for this mission. It is a fork of original project by twilio called Open Pixel Art and you can [view the project online](https://open-pixel-art.com) used in Github Universe 2020: Flame of Open Source program. Every pixel on this web page was placed by someone completing this course. Soon, you'll be learning how to add your very own pixel!
+The repository we're going to fork is one we created especially for this mission. It is a fork of original project by twilio called Open Pixel Art which is no longer online, used in Github Universe 2020: Flame of Open Source program. We are relaunching the very program which can be found here [Open Pixel Art - DIU Edition](https://diu-sec.github.io/open-pixel-art-diu). Every pixel on this web page was placed by someone completing this course. Soon, you'll be learning how to add your very own pixel!
 
 ## It all starts with a fork
 
